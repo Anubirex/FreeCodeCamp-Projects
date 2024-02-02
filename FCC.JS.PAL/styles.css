@@ -48,3 +48,7 @@ body {
 #check-btn:hover {
     background-color: goldenrod;
 }
+.user-input {
+    padding: -1rem;
+    font-size: 1.2rem;
+}
