@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #4c4c4c;
+    color: white;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+.palindrome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 20rem;
+    width: 22rem;
+    background-color: navy;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px black;
+}
+.instructions {
+    font-size: 1.5rem;
+    text-align: center;
+}
+#text-input {
+    position: absolute;
+    top: 50%;
+    font-size: 1.1rem;
+    padding: .25rem;
+    width: 20rem;
+    border-radius: 5px;
+}
+#check-btn {
+    position: absolute;
+    top: 55%;
+    padding: .25rem;
+    font-size: 1.1rem;
+    background-color: gold;
+    border-radius: 5px;
+    border: 2px ridge gray;
+}
+#check-btn:hover {
+    background-color: goldenrod;
+}
